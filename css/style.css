@@ -1,0 +1,46 @@
+:root {
+  --main-color: #757575;
+  --dark-color: #212121;
+  --wite-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--dark-color);
+}
+
+.logo-word {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.menu-link {
+  list-style: none;
+}
