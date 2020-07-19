@@ -25,7 +25,8 @@ body {
 }
 
 .menu-link,
-.link {
+.link,
+.address-contact {
   text-decoration: none;
 }
 
@@ -79,7 +80,9 @@ address {
   font-size: 14px;
   line-height: 1.714;
   color: var(--wite-color);
+  font-style: normal;
 }
+
 .address-contact {
   font-size: 14px;
   line-height: 1.714;
