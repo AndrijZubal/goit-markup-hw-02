@@ -24,17 +24,28 @@ body {
   color: var(--accent-color);
 }
 
+.logo,
+.menu-item,
+.contact-item,
 .menu-link,
 .link,
 .address-contact {
   text-decoration: none;
 }
 
-.menu-link:hover,
-.menu-link:focus,
+.menu-item:hover,
+.menu-item:focus,
+.contact-item:hover,
+.contact-item:focus,
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent-color);
+}
+
 .btn:hover,
 .btn:focus {
-  color: var(--accent-color);
+  color: var(--wite-color);
+  background: #2196f3;
 }
 
 .contact-item,
@@ -47,7 +58,8 @@ body {
   color: var(--dark-color);
 }
 
-.contact-list,
+.list,
+.contact,
 .menu-list,
 .btn-list,
 .content {
